@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    padding:0;
+}
+.self-name{
+    font-size:50px;
+    color:#FF4790;
+}
+p{
+    color:dimgray;
+}
+button{
+    color:white;
+    background-color:#FF4A92;
+    padding:10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.content-part{
+    width:40%;
+   float: left;
+   margin:5%;
+}
+.content-part img{
+    width:100%;
+}
+.top-part{
+    background-image:url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height:900px;
+}
+.middle-part{
+    background-image: url("images/biography-bg.png");
+    height:900px;
+    background-repeat: no-repeat;
+}
+#ex-text{
+    text-align: center;
+}
+.last-part{
+    background-image: url("images/latest-work-bg.png");
+    background-position: right;
+    background-size: 100%;
+    height:500px;
+}
+.last-part img{
+    margin-left:5%;
+    padding-left:5%;
+    width:20%;
+}
+#client-part{
+    height:600px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 65px;
+    text-align: center;
+}
+
+#bt-dg{
+    padding:35px 130px;
+    background-image: linear-gradient(180deg,#EC5196,#EC4C78);
+}
+#hamid{
+    font-size:25px;
+}
+#client-part a{
+    text-decoration:none;
+    color:white;
+}
+#copy-right{
+   line-height: 250px;
+   font-size:15px;
+}
+
+
